@@ -21,11 +21,11 @@ app.set("port", port);
 
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/feliznavidad", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useFindAndModify: false,
-});
+// mongoose.connect("mongodb://localhost:27017/feliznavidad", {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+//   useFindAndModify: false,
+// });
 
 /**
  * Create HTTP server.
